@@ -194,9 +194,10 @@ class Plugin extends PluginBase
             'config' => [
                 'label' => 'vdlp.redirect::lang.settings.menu_label',
                 'description' => 'vdlp.redirect::lang.settings.menu_description',
+                'category'    => 'SEO',
                 'icon' => 'icon-link',
                 'class' => Models\Settings::class,
-                'order' => 600,
+                'order' => 200,
                 'permissions' => [
                     'vdlp.redirect.access_redirects',
                 ],

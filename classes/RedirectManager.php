@@ -193,7 +193,7 @@ final class RedirectManager implements RedirectManagerInterface
         header('X-Redirect-By: Vdlp.Redirect');
         header('X-Redirect-Id: ' . $rule->getId());
         header('Cache-Control: no-store');
-        header('Location: ' . $toUrl, true, $statusCode);
+        header('Location: ' . rtrim($toUrl,'/') . (Models\Settings::get('end_slashes') ? '/' : ''), true, $statusCode);
 
         exit(0);
     }

@@ -18,6 +18,7 @@ return [
         'menu_description' => 'Hantera ompekningar',
     ],
     'settings' => [
+        'end_slashes' => 'Add end slash to target url',
         'menu_label' => 'Redirects', // TODO
         'menu_description' => 'Manage settings for Redirects.', // TODO
         'logging_enabled_label' => 'Log redirect events', // TODO

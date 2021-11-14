@@ -18,6 +18,7 @@ return [
         'menu_description' => 'Gestion des redirections',
     ],
     'settings' => [
+        'end_slashes' => 'Add end slash to target url',
         'menu_label' => 'Redirects',
         'menu_description' => 'Réglages pour les redirections',
         'logging_enabled_label' => 'Log des événements',

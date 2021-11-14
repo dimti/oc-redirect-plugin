@@ -18,6 +18,7 @@ return [
         'menu_description' => 'Beheer redirects',
     ],
     'settings' => [
+        'end_slashes' => 'Add end slash to target url',
         'menu_label' => 'Redirects',
         'menu_description' => 'Beheer instellingen voor redirects.',
         'logging_enabled_label' => 'Log redirect gebeurtenissen',

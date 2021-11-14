@@ -18,6 +18,7 @@ return [
         'menu_description' => 'Administra las redirecciones',
     ],
     'settings' => [
+        'end_slashes' => 'Add end slash to target url',
         'menu_label' => 'Redirección',
         'menu_description' => 'Administrar la configuración de las redirecciones.',
         'logging_enabled_label' => 'Eventos de redireccionamiento',
@@ -47,7 +48,7 @@ return [
         'to_url_required_if' => 'El destino o la URL son requeridos',
         'to_scheme' => 'Esquema objetivo',
         'to_scheme_comment' => 'El esquema del objetivo será forzado a HTTP o HTTPS '
-            . 'o elegir AUTOMÁTICO para usar el esquema por defecto del sitio web.', 
+            . 'o elegir AUTOMÁTICO para usar el esquema por defecto del sitio web.',
         'scheme_auto' => 'Automático',
         'input_path_placeholder' => '/input/path',
         'cms_page_required_if' => 'Por favor ingresa una página del CMS a la cual redirigir',
@@ -115,7 +116,7 @@ return [
         'ignore_case_comment' => 'El motor de redirección hará coincidir las mayúsculas y minúsculas.',
         'ignore_trailing_slash' => 'Ignoren la barra de arrastre',
         'ignore_trailing_slash_comment' => 'El motor de redireccionamiento ignorará las barras de arrastre.',
-        'last_used_at' => 'Último resultado', 
+        'last_used_at' => 'Último resultado',
         'updated_at' => 'Actualizado en',
         'invalid_regex' => 'Expresión regular inválida.',
     ],

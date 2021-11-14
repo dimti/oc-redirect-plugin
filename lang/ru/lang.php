@@ -18,6 +18,7 @@ return [
         'menu_description' => 'Управление редиректами',
     ],
     'settings' => [
+        'end_slashes' => 'Добавить слеш в конце URL',
         'menu_label' => 'Редиректы',
         'menu_description' => 'Управление настройками для Редиректов.',
         'logging_enabled_label' => 'Журнал событий перенаправлений',

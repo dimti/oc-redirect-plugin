@@ -8,6 +8,10 @@ fields:
         comment: vdlp.redirect::lang.settings.menu_description
         type: section
         span: left
+    end_slashes:
+        label: vdlp.redirect::lang.settings.end_slashes
+        type: checkbox
+        span: left
     logging_enabled:
         label: vdlp.redirect::lang.settings.logging_enabled_label
         comment: vdlp.redirect::lang.settings.logging_enabled_comment
