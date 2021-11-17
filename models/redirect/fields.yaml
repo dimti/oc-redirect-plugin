@@ -112,7 +112,7 @@ tabs:
             label: vdlp.redirect::lang.redirect.ignore_trailing_slash
             type: checkbox
             span: left
-            default: false
+            default: true
             comment: vdlp.redirect::lang.redirect.ignore_trailing_slash_comment
 
         #

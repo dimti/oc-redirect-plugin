@@ -428,6 +428,12 @@ final class Redirect extends Model
                 $this->setAttribute('cms_page', null);
                 break;
         }
+
+        if ($this->getAttribute('match_type') == self::TYPE_EXACT &&
+            !starts_with($this->getAttribute('from_url'), '/')
+        ) {
+            $this->setAttribute('from_url', '/' . $this->getAttribute('from_url'));
+        }
     }
 
     public function isActiveOnDate(Carbon $date): bool
