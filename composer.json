@@ -1,6 +1,6 @@
 {
     "name": "vdlp/oc-redirect-plugin",
-    "description": "Advanced redirect plugin for October CMS.",
+    "description": "Advanced redirect plugin for October CMS. Additionally for inner projects.",
     "license": "GPL-2.0-only",
     "type": "october-plugin",
     "authors": [
@@ -11,6 +11,10 @@
         {
             "name": "Alwin Drenth",
             "email": "adrenth@gmail.com"
+        },
+        {
+            "name": "WP Studio Team",
+            "email": "info@wpstudio.ru"
         }
     ],
     "require": {
@@ -21,15 +25,9 @@
         "davaxi/sparkline": "^2.0",
         "jaybizzle/crawler-detect": "^1.2",
         "league/csv": "^9.0",
-        "october/system": "^2.1",
+        "october/system": "2.1.12",
         "symfony/stopwatch": "^4.0 || ^5.0 || ^6.0"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://gateway.octobercms.com"
-        }
-    ],
     "archive": {
         "exclude": [
             ".gitattributes",
